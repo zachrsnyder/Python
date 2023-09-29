@@ -29,5 +29,6 @@ for x in range(0,values_num):
     f.write(f"{str(random.randrange(value_min,value_max+1))}\n")
 
 print("Your random numbers have been written to the file \"randomnum.txt\"!\n")
+f.close()
 
 
